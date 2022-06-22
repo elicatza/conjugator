@@ -6,21 +6,21 @@ My first Rust project!
 Don't know yet.
 I think this should work.
 ```bash
-git clone `repo_url`
-cd `repo_name`
+git clone "https://github.com/elicatza/conjugator"
+cd conjugator
 cargo build --release
 sudo make install
 ```
 
 ## Uninstall
 ```bash
-git clone `repo_url`
-cd `repo_name`
+git clone "https://github.com/elicatza/conjugator"
+cd conjugator
 sudo make uninstall
 
 # Remove repo
 cd ..
-rm -rf `repo_name`
+rm -rf conjugator
 ```
 
 ## Own notes
