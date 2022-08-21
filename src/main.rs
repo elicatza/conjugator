@@ -6,7 +6,7 @@ use serde::{Serialize, Deserialize};
 
 const VERB_LIST_FILE: &str = "/usr/local/share/conjugator/german_verb_list.txt";
 const CONJUGATION_URL: &str = "https://german-verbs-conjugation-api.herokuapp.com/german-verbs-api?verb=VERB&tense=TENSE&verbCase=CASE";
-const VERB_TENSES: [&str; 12] = [
+const VERB_TENSES: [&str; 11] = [
     "PRASENS",
     "PRATERITUM",
     "FUTUR1",
